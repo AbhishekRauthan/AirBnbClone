@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { Button } from "@material-ui/core";
-import Search from "./Search";
+import Search from "../Search/Search";
 import './Banner.css'
 
 interface Props {}
 
-const Banner = ({}: Props) => {
+const Banner = (props: Props) => {
   const [searchText, setSearchText] = useState<boolean>(false);
   return (
     <div className="banner">

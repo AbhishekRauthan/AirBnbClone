@@ -8,7 +8,7 @@ import './Header.css'
 
 interface Props {}
 
-const Header: FC = ({}: Props): ReactElement => {
+const Header: FC = (props: Props): ReactElement => {
   return (
     <div className="header">
       <img
